@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.alibinobroccoli.pathblocks",
+        "sha256_cert_fingerprints": ["31:70:FF:F2:2C:66:89:06:EA:6E:1B:85:C0:3E:3B:1C:85:7B:CA:E0:8B:86:F0:06:D5:DF:CD:AE:C6:30:43:0B"]
+      }
+    }]

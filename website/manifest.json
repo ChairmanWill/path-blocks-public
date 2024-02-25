@@ -2,8 +2,8 @@
   "id": "path-blocks-1",
   "name": "path-blocks",
   "short_name": "Path Blocks",
-  "start_url": "https://chairmanwill.github.io/path-blocks-public/",
-  "scope": "https://chairmanwill.github.io/path-blocks-public/",
+  "start_url": "https://pathblocks.albinobroccoli.com/",
+  "scope": "https://pathblocks.albinobroccoli.com/",
   "display": "standalone",
   "description": "A small game",
   "categories": ["games"],
@@ -18,13 +18,13 @@
   },
   "icons": [
     {
-      "src": "https://chairmanwill.github.io/path-blocks-public/path_icon_large.png",
+      "src": "https://pathblocks.albinobroccoli.com/path_icon_large.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://chairmanwill.github.io/path-blocks-public/path_icon.png",
+      "src": "https://pathblocks.albinobroccoli.com/path_icon.png",
       "sizes": "195x195",
       "type": "image/png",
       "purpose": "any"
@@ -32,7 +32,7 @@
   ],
   "screenshots": [
     {
-      "src": "https://chairmanwill.github.io/path-blocks-public/screenshot.png",
+      "src": "https://pathblocks.albinobroccoli.com/screenshot.png",
       "sizes": "2190x1316",
       "type": "image/png",
       "description": "A screenshot of the home page"
@@ -42,7 +42,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://chairmanwill.github.io/path-blocks-public/manifest.json"
+      "url": "https://pathblocks.albinobroccoli.com/manifest.json"
     }
   ]
 }
