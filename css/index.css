@@ -1,0 +1,92 @@
+@import "/src/reactui/components/OpenMenuButton/OpenMenuButton.css";
+@import "/src/reactui//components/GameMenu/GameMenu.css";
+@import "/src/reactui/components/TextButton/TextButton.css";
+
+.pb_button {
+  pointer-events: all;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pb_button:hover {
+  filter: brightness(90%);
+}
+
+.pb_button:active {
+  filter: brightness(80%);
+}
+
+.pb_button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.pb_game-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.pb_game-ui {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.pb_game-hud {
+  width: 100%;
+  height: 100%;
+}
+
+.pb_game-hud-score-section {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 19%;
+  width: 100%;
+}
+
+@media (orientation: landscape) {
+  .pb_game-hud-score-section {
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+  }
+}
+
+.pb_hud-score {
+  text-align: center;
+  font-size: 3em;
+}
+.pb_hud-high-score {
+  text-align: center;
+  font-size: 3em;
+}
+.pb_hud-score-pad {
+  width: 3em;
+  height: 3em;
+}
+
+.pb_overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #000000dd;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  pointer-events: all;
+}
