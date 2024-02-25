@@ -1,7 +1,7 @@
 {
   "name": "path-blocks",
   "short_name": "Path Blocks",
-  "start_url": "http://localhost:5173",
+  "start_url": "https://chairmanwill.github.io/path-blocks-public/",
   "display": "standalone",
   "description": "A small game",
   "lang": "en",
@@ -35,7 +35,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "http://localhost:5173/public/manifest.json"
+      "url": "https://chairmanwill.github.io/path-blocks-public/manifest.json"
     }
   ]
 }
