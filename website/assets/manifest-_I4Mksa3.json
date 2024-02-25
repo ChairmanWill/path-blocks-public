@@ -12,6 +12,7 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "any",
+  "handle_links": "auto",
   "launch_handler": {
     "client_mode": "focus-existing"
   },
