@@ -1,8 +1,11 @@
 [{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.alibinobroccoli.pathblocks",
-        "sha256_cert_fingerprints": ["31:70:FF:F2:2C:66:89:06:EA:6E:1B:85:C0:3E:3B:1C:85:7B:CA:E0:8B:86:F0:06:D5:DF:CD:AE:C6:30:43:0B"]
-      }
-    }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.albinobroccoli.pathblocks.twa",
+    "sha256_cert_fingerprints": [
+      "06:F5:E9:EC:23:C2:9E:BC:BF:41:32:9C:AE:8F:DC:B4:DB:89:01:3F:67:C8:32:A1:4F:D8:22:38:1E:F8:10:96",
+      "66:01:4D:C2:C5:87:C4:86:70:AE:75:57:FA:9D:9E:1B:EF:FA:83:F0:10:35:B9:25:4D:23:C8:21:AC:44:84:72"
+    ]
+  }
+}]
