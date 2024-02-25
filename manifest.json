@@ -1,14 +1,20 @@
 {
+  "id": "path-blocks-1",
   "name": "path-blocks",
   "short_name": "Path Blocks",
   "start_url": "https://chairmanwill.github.io/path-blocks-public/",
+  "scope": "https://chairmanwill.github.io/path-blocks-public/",
   "display": "standalone",
   "description": "A small game",
+  "categories": ["games"],
   "lang": "en",
   "dir": "auto",
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "any",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
   "icons": [
     {
       "src": "https://chairmanwill.github.io/path-blocks-public/path_icon.png",
