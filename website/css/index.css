@@ -1,6 +1,11 @@
 @import "/src/reactui/components/OpenMenuButton/OpenMenuButton.css";
+@import "/src/reactui/components/EndGamePopup/EndGamePopup.css";
 @import "/src/reactui//components/GameMenu/GameMenu.css";
 @import "/src/reactui/components/TextButton/TextButton.css";
+
+body {
+  margin: 0;
+}
 
 .pb_button {
   pointer-events: all;
