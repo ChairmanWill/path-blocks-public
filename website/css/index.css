@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  overflow: hidden;
 }
 
 .pb_button {
@@ -94,4 +95,15 @@ body {
   align-content: center;
   justify-content: center;
   pointer-events: all;
+}
+
+.pb_menu-title {
+  text-align: center;
+  font-weight: 900;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+canvas {
+  object-fit: cover;
 }
