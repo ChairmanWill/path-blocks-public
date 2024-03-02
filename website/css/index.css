@@ -6,6 +6,11 @@
 body {
   margin: 0;
   overflow: hidden;
+  background-color: #ececec;
+}
+
+html {
+  background-color: #ececec;
 }
 
 .pb_button {
