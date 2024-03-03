@@ -7,6 +7,9 @@ body {
   margin: 0;
   overflow: hidden;
   background-color: #ececec;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 html {
@@ -46,8 +49,8 @@ html {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 
@@ -78,14 +81,14 @@ html {
 
 .pb_hud-score {
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .pb_hud-high-score {
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .pb_hud-score-pad {
-  width: 3em;
+  width: 2em;
   height: 3em;
 }
 
